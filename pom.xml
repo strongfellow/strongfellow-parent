@@ -5,18 +5,21 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <aws.sdk.version>1.9.32</aws.sdk.version>
+    <bitcoinj.version>0.12.3</bitcoinj.version>
+    <hadoop.version>2.7.0</hadoop.version>
     <java.source.version>1.7</java.source.version>
     <java.target.version>1.7</java.target.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j.version>1.7.12</slf4j.version>
+    <spring.version>4.1.6.RELEASE</spring.version>
     <testng.version>6.8.21</testng.version>
-    <bitcoinj.version>0.12.3</bitcoinj.version>
-    <aws.sdk.version>1.9.32</aws.sdk.version>
   </properties>
   <modules>
     <module>../ticker</module>
     <module>../txlisten</module>
     <module>../txworker</module>
+    <module>../mrutils</module>
     <module>../utils</module>
   </modules>
   <dependencies>
